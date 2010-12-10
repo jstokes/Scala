@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ScalaLib">
+    <CLASSES>
+      <root url="file:///opt/local/share/scala-2.8/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

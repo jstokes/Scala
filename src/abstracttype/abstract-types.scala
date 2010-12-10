@@ -14,16 +14,16 @@ class StringBulkReader(val source: String) extends BulkReader {
   def read = source
 }
 
-class FileBulkReader(val source: File) extends BulkReader {
+/*class FileBulkReader(val source: File) extends BulkReader {
   type In = File
   def read = {
     val in = new BufferedInputStream(new FileInputStream(source))
     val numBytes = in.available()
     val bytes = new Array[Byte](numBytes)
     in.read(bytes, 0, numBytes)
-    new String(bytes)
-  }
-}
+    new String(bytes)*/
+  //}
+//}
 
 println( new StringBulkReader("Hello Scala").read )
-println( new FileBulkReader(new File("abstract-types.scala")).read )
+//println( new FileBulkReader(new File("abstract-types.scala")).read )
