@@ -2,6 +2,7 @@
   <library name="ScalaLib">
     <CLASSES>
       <root url="file:///opt/local/share/scala-2.8/lib" />
+      <root url="jar:///opt/local/share/scala-2.8/lib/specs_2.8.1-1.6.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
